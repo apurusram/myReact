@@ -39,7 +39,7 @@ const CarItem = (props) => {
 
             
             <StyledButton type="secondary" 
-            content={"Book a test drive"} 
+            content={"Book now"} 
             onPress={() => {
               navigation.navigate('Booking');
 

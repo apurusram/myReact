@@ -1,17 +1,17 @@
 export default [{
-  name: 'Model S',
-  tagline: 'Starting at $69,420',
-  image: require('../../assets/images/ModelS.jpeg'),
+  name: 'Mercedes AMG',
+  tagline: 'The Best or Nothing',
+  image: require('../../assets/images/car1.jpg'),
 }, {
-  name: 'Model 3',
-  tagline: 'Order Online for',
-  image: require('../../assets/images/Model3.jpeg'),
+  name: 'Range Rover',
+  tagline: 'Above and Beyond',
+  image: require('../../assets/images/car2.jpg'),
 }, {
-  name: 'Model X',
-  tagline: 'Order Online for',
-  image: require('../../assets/images/ModelX.jpeg'),
+  name: 'BMW M3',
+  tagline: 'Ultimate Driving Machine',
+  image: require('../../assets/images/car3.jpg'),
 }, {
-  name: 'Model Y',
-  tagline: 'Order Online for',
-  image: require('../../assets/images/ModelY.jpeg'),
+  name: 'Porsche 911',
+  tagline: 'There is No Substitute',
+  image: require('../../assets/images/car4.jpg'),
 }];

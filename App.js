@@ -13,8 +13,9 @@ const Stack = createNativeStackNavigator();
 function LogoTitle() {
   return (
     <Image
-      style={{ width: 50, height: 50 }}
-      source={require('./assets/favicon.png')}
+      style={styles.header}
+  
+      source={require('./assets/images/header.png')}
     />
   );
 }
@@ -40,11 +41,9 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+  header: {
+    width: 390,
+    height: 64
   },
 
  
